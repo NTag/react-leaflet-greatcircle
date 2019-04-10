@@ -1,0 +1,35 @@
+{
+  "name": "react-leaflet-greatcircle",
+  "version": "1.0.0",
+  "description": "Leaflet.greatCircle for react-leaflet",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NTag/react-leaflet-greatcircle.git"
+  },
+  "author": "Basile Bruneau <basilebruneau@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NTag/react-leaflet-greatcircle/issues"
+  },
+  "homepage": "https://github.com/NTag/react-leaflet-greatcircle#readme",
+  "peerDependencies": {
+    "leaflet": "^1.3.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-leaflet": "^2.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "leaflet": "^1.3.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-leaflet": "^2.1.1"
+  }
+}
