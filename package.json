@@ -1,6 +1,6 @@
 {
   "name": "react-leaflet-greatcircle",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Leaflet.greatCircle for react-leaflet",
   "main": "dist/index.js",
   "scripts": {

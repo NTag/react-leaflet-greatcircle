@@ -8,8 +8,8 @@ class GreatCircle extends Path {
   }
 
   updateLeafletElement(fromProps, toProps) {
-    const { fromCenter, fromRadius } = fromProps;
-    const { toCenter, toRadius, ...toStyle } = toProps;
+    const { center: fromCenter, radius: fromRadius } = fromProps;
+    const { center: toCenter, radius: toRadius, ...toStyle } = toProps;
 
     if (fromCenter !== toCenter) {
       this.leafletElement.setLatLng(toCenter);
