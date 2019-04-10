@@ -1,5 +1,5 @@
 import { withLeaflet, Path } from 'react-leaflet';
-import greatCircle from './src/Leaflet.greatCircle';
+import greatCircle from './Leaflet.greatCircle';
 
 class GreatCircle extends Path {
   createLeafletElement({ center, leaflet, ...options }) {
